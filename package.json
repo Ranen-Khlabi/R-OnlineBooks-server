@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
@@ -17,5 +18,18 @@
     "gitignore": "^0.6.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ranen-Khlabi/R-OnlineBooks-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ranen-Khlabi/R-OnlineBooks-server/issues"
+  },
+  "homepage": "https://github.com/Ranen-Khlabi/R-OnlineBooks-server#readme",
+
+  "engines": {
+    "node": "12.16.1",
+    "npm": "6.13.4"
   }
 }
